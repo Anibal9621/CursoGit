@@ -1,0 +1,53 @@
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+/* Párrafos */
+p {
+    color: red; /* tu estilo original */
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    background: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Línea horizontal */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
